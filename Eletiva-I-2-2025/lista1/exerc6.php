@@ -11,21 +11,16 @@
 <h1>Exercício 1 da lista 1</h1>
 <form method="post">
 <div class="mb-3">
-              <label for="num1" class="form-label">digite um número:</label>
-              <input type="number" id="num1" name="num1" class="form-control" required="">
-            </div>
-<div class="mb-3">
-              <label for="num2" class="form-label">Digite outro número:</label>
-              <input type="number" id="num2" name="num2" class="form-control" required="">
+              <label for="temp" class="form-label">digite a temperatura em Graus Celsius:</label>
+              <input type="number" id="temp" name="temp" class="form-control" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $numero1 = $_POST['num1'];
-    $numero2 = $_POST['num2'];
-    $soma = $numero1 + $numero2;
-    echo "<p> o valor da soma dos valores inseridos é: $soma </p>";
+    $temperatura = $_POST['temp'];
+    $conversao = ($temperatura * (9/5)) + 32; // peguei a formula da internet, acho que ta certaaaaaa
+    echo "<p> A temperatura de $temperatura ºC em fahrenheit é: $conversao ºF </p>";
     }
     ?>
 
