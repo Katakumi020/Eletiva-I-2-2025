@@ -8,7 +8,7 @@
 </head>
 <body> 
 <div class="container">
-<h1>Exercício 1 da lista 1</h1>
+<h1>Exercício 2 da lista 1</h1>
 <form method="post">
 <div class="mb-3">
               <label for="num1" class="form-label">digite um número:</label>
@@ -24,8 +24,8 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $numero1 = $_POST['num1'];
     $numero2 = $_POST['num2'];
-    $soma = $numero1 + $numero2;
-    echo "<p> o valor da soma dos valores inseridos é: $soma </p>";
+    $subtracao = $numero1 - $numero2;
+    echo "<p> o valor da subtração dos valores inseridos é: $subtracao </p>";
     }
     ?>
 
