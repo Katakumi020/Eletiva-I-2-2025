@@ -22,8 +22,8 @@
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-    $A = $_POST['numero1'];
-    $B = $_POST['numero2'];
+    $A = $_POST['num1'];
+    $B = $_POST['num2'];
 
     if ($A < $B) {
         echo "<p>$A . $b</p>";
