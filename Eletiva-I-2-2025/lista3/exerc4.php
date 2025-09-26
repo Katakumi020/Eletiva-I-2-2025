@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Exercício 3 da lista 3</title>
+<title>Exercício 4 da lista 3</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body> 
 <div class="container">
-<h1>Exercício 3 da lista 3</h1>
+<h1>Exercício 4 da lista 3</h1>
 <form method="post">
     <div class="mb-3">
     <label for="dia" class="form-label">Digite o dia:</label>
