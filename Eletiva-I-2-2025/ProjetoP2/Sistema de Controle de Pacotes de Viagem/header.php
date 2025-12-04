@@ -14,10 +14,10 @@
 <a class="navbar-brand" href="/index.php">Agência</a>
 <div class="collapse navbar-collapse">
 <ul class="navbar-nav me-auto">
-<li class="nav-item"><a class="nav-link" href="/destinos/listar_destinos.php">Destinos</a></li>
-<li class="nav-item"><a class="nav-link" href="/clientes/listar_clientes.php">Clientes</a></li>
-<li class="nav-item"><a class="nav-link" href="/pacotes/listar_pacotes.php">Pacotes</a></li>
-<li class="nav-item"><a class="nav-link" href="/vendas/listar_vendas.php">Vendas</a></li>
+<li class="nav-item"><a class="nav-link" href="./destinos/listar_destinos.php">Destinos</a></li>
+<li class="nav-item"><a class="nav-link" href="./clientes/listar_clientes.php">Clientes</a></li>
+<li class="nav-item"><a class="nav-link" href="./pacotes/listar_pacotes.php">Pacotes</a></li>
+<li class="nav-item"><a class="nav-link" href="./vendas/listar_vendas.php">Vendas</a></li>
 </ul>
 </div>
 </nav>
