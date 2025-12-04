@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sistema de Pacotes</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Sistema%20de%20Controle%20de%20Pacotes%20de%20Viagem/css/estilo.css">
 </head>
 <body class="p-4">
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 p-3 rounded">

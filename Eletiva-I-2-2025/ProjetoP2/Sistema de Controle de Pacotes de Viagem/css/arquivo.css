@@ -1,0 +1,80 @@
+body {
+    background-color: #1c1c1c;
+    color: #8FFF96;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+    background: #121212 !important;
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #8FFF96 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+/* ======== TEXTOS ======== */
+h1, h2 {
+    color: #8FFF96;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* ======== TABELAS ======== */
+table {
+    color: #d8ffd9;
+    background: #222;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table tr td, table th {
+    padding: 14px;
+}
+
+table thead {
+    background: #0f0f0f;
+    color: #8FFF96;
+}
+
+table tbody tr:hover {
+    background: #2b2b2b;
+}
+
+/* ======== BOTÕES ======== */
+.btn-dark {
+    background: #000;
+    border: 1px solid #444;
+    color: #8FFF96;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-dark:hover {
+    background: #111;
+    color: #ffffff;
+    border-color: #8FFF96;
+}
+
+/* ======== CARDS / CAIXAS ======== */
+.container {
+    background: #141414;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,255,127,0.1);
+}
+
+/* ======== FORMULÁRIOS ======== */
+input, select, textarea {
+    background: #1a1a1a !important;
+    color: #8FFF96 !important;
+    border: 1px solid #333 !important;
+}
