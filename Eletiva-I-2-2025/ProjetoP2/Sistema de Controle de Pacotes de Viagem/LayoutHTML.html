@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Pacotes - Layout Moderno</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin:0; padding:0; font-family:'Poppins', sans-serif; background:#f5f7fa;
+    }
+    header{
+        background:#1a73e8; padding:18px 40px; color:white; display:flex; align-items:center; justify-content:space-between;
+        box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    }
+    header h1{ margin:0; font-size:24px; font-weight:600; }
+
+    nav a{
+        margin-left:20px; color:white; text-decoration:none; font-weight:400; transition:0.3s;
+    }
+    nav a:hover{ opacity:.8; }
+
+    .container{
+        width:90%; max-width:1100px; margin:40px auto; padding:25px; background:white;
+        border-radius:14px; box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2{ margin-top:0; font-weight:600; }
+
+    table{
+        width:100%; border-collapse:collapse; margin-top:20px;
+    }
+    table th{
+        background:#1a73e8; color:white; padding:12px; text-align:left; font-weight:500;
+    }
+    table td{
+        padding:12px; border-bottom:1px solid #ddd;
+    }
+    table tr:hover{ background:#f2f6ff; }
+
+    .btn{
+        padding:8px 14px; border:none; border-radius:6px; text-decoration:none; font-size:14px; cursor:pointer;
+    }
+
+    .btn-primary{ background:#1a73e8; color:white; }
+    .btn-primary:hover{ background:#145dc7; }
+
+    .btn-warning{ background:#ffbb33; color:white; }
+    .btn-danger{ background:#e84545; color:white; }
+
+    form .campo{
+        margin-bottom:15px;
+    }
+    form label{
+        font-weight:500;
+    }
+    form input, form textarea, form select{
+        width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;
+        margin-top:6px; font-size:14px;
+    }
+    button[type=submit]{
+        margin-top:10px;
+        background:#1a73e8; color:white; border:none; padding:10px 18px; border-radius:6px; cursor:pointer;
+    }
+    button[type=submit]:hover{ background:#145dc7; }
+
+</style>
+</head>
+<body>
+<header>
+    <h1>Agência de Viagens</h1>
+    <nav>
+        <a href="#">Destinos</a>
+        <a href="#">Clientes</a>
+        <a href="#">Pacotes</a>
+        <a href="#">Vendas</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Exemplo de Listagem</h2>
+    <a class="btn btn-primary" href="#">Adicionar Novo</a>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>País</th>
+            <th>Cidade</th>
+            <th>Ações</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Paris</td>
+            <td>França</td>
+            <td>Paris</td>
+            <td>
+                <a class="btn btn-warning">Editar</a>
+                <a class="btn btn-danger">Excluir</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+
